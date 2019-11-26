@@ -1,0 +1,172 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, .5);
+    font-family: 'Titilium Web', sans-serif;
+}
+
+.container {
+    padding: 10px;
+    margin: 0 auto;
+    width: 380px;
+    box-shadow: 0 1px 1px rgba(233, 221, 221, 0.5);
+}
+
+.clear {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.clear i {
+    font-size: 30px;
+    color: salmon;
+}
+
+.clear i:hover {
+    cursor: pointer;
+    text-shadow: 1px 3px 5px black;
+}
+
+.header {
+    width: 380px;
+    height: 200px;
+    background-image: url('Beautiful-Wallpapers-14.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+#date {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: blanchedalmond;
+    font-size: 25px;
+    font-family: 'Titilium Web', sans-serif;
+}
+
+.content {
+    width: 380px;
+    height: 350px;
+    max-height: 350px;
+    background-color: cornsilk;
+    overflow: auto;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.content ul {
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    width: 380px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item i.co {
+    position: absolute;
+    font-size: 25px;
+    padding-left: 5px;
+    left: 15px;
+    top: 10px;
+}
+
+.item i.co:hover {
+    cursor: pointer;
+}
+
+.fa-check-circle {
+    color: green;
+}
+
+.item p.text {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    left: 50px;
+    top: 5px;
+    background-color: wheat;
+    max-width: 285px;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.item i.de {
+    position: absolute;
+    font-size: 25px;
+    right: 25px;
+    top: 10px;
+}
+
+.item i.de:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.add-to-do {
+    position: relative;
+    width: 360px;
+    height: 40px;
+    background-color: linen;
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.add-to-do i {
+    position: absolute;
+    font-size: 40px;
+    color: tomato;
+}
+
+.add-to-do input {
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.add-to-do ::-webkit-input-placeholder {
+    color: mediumvioletred;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.add-to-do ::-moz-placeholder {
+    color: mediumvioletred;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.add-to-do :-ms-input-placeholder {
+    color: mediumvioletred;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.add-to-do :-moz-placeholder {
+    color: mediumvioletred;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
